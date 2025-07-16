@@ -1,0 +1,33 @@
+.container__newsletter {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.container__newsletter-titulo {
+    font-weight: 500;
+    color: var(--azul-degrade);
+    font-size: 1.125rem;
+}
+
+.container__newsletter-descricao {
+    font-weight: 100;
+    color: var(--azul-degrade);
+    padding: 0.5em 0 1.5em 0;
+}
+
+.container__newsletter-email {
+    border: 1px solid var(--azul-titulo-livro);
+    border-radius: 24px;
+    padding: 0.6em 0;
+    width: 100%;
+}
+
+.container__newsletter-email::placeholder {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--azul-degrade);
+    background: url("../assets/Email.svg") no-repeat 1em;
+    padding-left: 3em;
+}

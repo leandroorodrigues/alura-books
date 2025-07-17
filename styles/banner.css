@@ -84,4 +84,17 @@
     .banner__pesquisa::placeholder {
         background-position: 5.8em;
     }
+
+    .container__topicos-titulo {
+        font-size: 1.5em;
+    }
+
+    .container__topicos-topicos {
+        padding: 0 8.81em;
+    }
+
+    #topicos {
+        font-size: 1.5em;
+        padding: 24px 32px;
+    }
 }

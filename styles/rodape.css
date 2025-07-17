@@ -1,5 +1,50 @@
 .rodape {
+    display: flex;
     background-color: var(--branco);
     border-top: 1px solid #858585;
     padding: 1em 0 1.5em 1.5em;
+}
+
+.container__listas {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        padding: 56px 24px;
+        gap: 106px;
+    }
+
+    .rodape-titulo {
+        font-size: 1.5rem;
+    }
+
+    .container__listas {
+        display: flex;
+        gap: 61px;
+    }
+
+    .lista__titulo {
+        color: #858585;
+        font-family: "Poppins";
+        font-size: 0.875rem;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .lista-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .links-item {
+        color: #474646;
+        font-family: "Poppins";
+        font-size: 0.875rem;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    }
 }

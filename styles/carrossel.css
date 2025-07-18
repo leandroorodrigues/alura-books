@@ -104,7 +104,43 @@
     }
 
     .card {
-        width: 40%;
+        width: 588px;
         margin: 2em auto;
+    }
+
+    .botao__ancora:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__carrossel {
+        display: flex;
+        align-items: center;
+        margin: 114px 174px;
+        gap: 3em;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0
+    }
+
+    .card {
+        width: 588px;
+        height: 278px;
+        margin: 0;
+    }
+
+    .descricao__titulo {
+        font-size: 2rem;
+    }
+
+    .descricao__titulo-livro {
+        font-size: 1.125rem;
+    }
+
+    .descricao__texto {
+        font-size: 1rem;
     }
 }

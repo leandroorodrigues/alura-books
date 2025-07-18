@@ -98,3 +98,14 @@
         padding: 24px 32px;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 586px;
+    }
+
+    .container__topicos {
+        width: 743px;
+        padding: 64px 492px;
+    }
+}
